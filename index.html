@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+<style>
+      body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+            background-color: #f0f0f0;
+            background-image: url('https://images.unsplash.com/photo-1596025234111-57e5998b5035?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2FuZCUyMGFydHxlbnwwfDF8MHx8fDI%3D'); 
+            background-size: contain;
+            background-repeat: repeat;
+            background-position: top;
+            color: #dfdada;
+            
+        }
+</style>
+<body>
+    <header>
+        <!-- navbar -->
+        <div class="navbar navbar-expand-md bg-light">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <span class="fw-bold text-secondary">
+                        navbar-brand
+                    </span>
+                </a>
+                <!-- toggle button -->
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation" arial-controls="main-nav">
+                    <span class="navbar-toggler-icon"></span>
+                 </button>
+                <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Welcome</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">History</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Featured Attractions</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Looking Forward</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>  
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </header>
+    <main>
+        <h1 class="display-1 text-center"> Visit Japan</h1>
+        </div>
+
+        <!-- carousel -->
+        <div class="container d-flex justify-content-center">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRva3lvfGVufDB8MHwwfHx8Mg%3D%3D" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGphcGFufGVufDB8MHwwfHx8MA%3D%3D" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dG9reW98ZW58MHwwfDB8fHwy" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        </div>
+
+        
+        <h1 class="display-4 text-center my-5">Click to learn more:</h1>
+
+        <!-- cards -->
+        <div class="container">
+            <div class="row my-5 align-items-center justify-content-center">
+                <div class="col-lg-4 col-6 col-xl-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1574063783045-8f8435516570?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fGphcGFuJTIwcmVkfGVufDB8MXwwfHx8MA%3D%3D" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    A Brief History
+                                </h5>
+                                <p class="card-text">card text</p>
+                                <a href="" class="btn btn-secondary">button</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 col-xl-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1715491620481-1d7c6328e179?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGphcGFuJTIwZ2Vpc2hhfGVufDB8MXwwfHx8MA%3D%3D" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Arts & Culture
+                                </h5>
+                                <p class="card-text">card text</p>
+                                <a href="" class="btn btn-secondary">button</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 col-xl-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1521847014657-3c4d4eeff4df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGphcGFuZXNlJTIwcmVkJTIwZ2F0ZXN8ZW58MHwxfDB8fHww" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Traditional Landmarks
+                                </h5>
+                                <p class="card-text">card text</p>
+                                <a href="" class="btn btn-secondary">button</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 col-xl-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1586753513812-462ed2a82584?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZ1dHVyZSUyMGphcGFufGVufDB8MXwwfHx8MA%3D%3D" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    A Glimpse into Tomorrow
+                                </h5>
+                                <p class="card-text">card text</p>
+                                <a href="" class="btn btn-secondary">button</a>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+       <!-- accordion -->
+        <h1 class="display-4 text-center my-5">FAQs</h1>
+        <div class="container">
+            <div class="accordion my-3" id="accordionExample">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne">Item 1</button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="accordionExample">
+                            <div class="accordion-body">
+                                <p>This is some text for the accordion</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                            aria-expanded="true"
+                            aria-controls="collapseTwo">Item 2</button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="accordionExample">
+                            <div class="accordion-body">
+                                <p>This is some text for the accordion</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                            aria-expanded="true"
+                            aria-controls="collapseThree">Item 3</button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="accordionExample">
+                            <div class="accordion-body">
+                                <p>This is some text for the accordion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseOne" class="accordion-collapse collapse"></div>
+            
+        </div>
+        
+
+
+        </div>
+
+        <!-- form -->
+        <div class="container-md">
+            <h2 class="text-center display-4">Get in Touch
+            </h2>
+            <p class="lead">Ask a question and we will respond to you within the next business day:</p>
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="exampleEmail" class="form-control" placeholder="johndoe@email.com">
+                <label for="email" class="form-label">Name:</label>
+                <input type="email" id="name" class="form-control" placeholder="John Doe">
+    
+                <label for="subject" class="form-label">Subject:</label>
+                <textarea name="" id="subject" class="form-control" style="height:140px">
+                    
+                </textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+            </form>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-2">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+                <div class="col-2">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+                <div class="col-2">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+                <div class="col-4 offset-1">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-dark" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p>© 2025 Sample Website, Inc. All rights reseved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+          
+          
+          
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
